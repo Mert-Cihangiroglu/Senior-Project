@@ -1,4 +1,4 @@
-# Senior-Project
+# Senior-Project / Emotion Recognition
 
 Dataset7.z is the zip file contains images we have performed our models on.
 
