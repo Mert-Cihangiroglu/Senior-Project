@@ -49,7 +49,7 @@ test_datagen = ImageDataGenerator(rescale=1./255)
 # Flow training images in batches of 20 using train_datagen generator
 train_generator = train_datagen.flow_from_directory(
         train_dir,  # This is the source directory for training images
-        target_size=(100, 100),  # All images will be resized
+        target_size=(256, 256),  # All images will be resized
         batch_size=20,
         # Since we use binary_crossentropy loss, we need binary labels
         class_mode='categorical')
