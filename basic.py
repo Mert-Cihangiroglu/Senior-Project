@@ -8,7 +8,7 @@ Original file is located at
 """
 
 #Senior Project
-#MustafaGultekin - MertCihangiroglu
+# MertCihangiroglu
 import os
 import zipfile
 import tensorflow as tf
